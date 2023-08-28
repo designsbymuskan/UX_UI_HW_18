@@ -1,0 +1,64 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav  {
+    width: 73%;
+    padding: 1%;
+    background-color:  #373738;
+;
+}
+
+nav ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+nav ul li {
+    color: #ECF0F1;
+    padding: 0 10px;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.content p, 
+.content button {
+    font-family: 'Georgia', serif; 
+}
+
+footer {
+    background-color: #373738;
+    padding: 10px 0; 
+    color: #ECF0F1;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+footer ul li {
+    padding: 0 5px;
+
+}
