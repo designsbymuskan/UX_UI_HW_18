@@ -3,18 +3,29 @@
     vertical-align: top;
 }
 
-.logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
-}
-
-nav  {
-    width: 73%;
-    padding: 1%;
-    background-color:  #373738;
-
-}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #373738;
+    padding: 15px;
+    height: 120px;
+  }
+  
+  .logo {
+    width: 120px; /* Adjust the width of the logo container */
+  }
+  
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  nav {
+    flex-grow: 1;
+    /* Additional styles for navigation links */
+  }
+  
 
 
 .flexContainer {
