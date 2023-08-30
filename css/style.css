@@ -31,15 +31,15 @@
 .flexContainer {
     display: flex;
     flex-direction: row;
+    align-items: right;
+    margin-left: auto ;
 }
-
-
 .flexContainer > div {
-    width: 33%;
     padding: 20px;
     margin: 20px;
-    
+  
 }
+
 
 .myWork {
     padding: 100px;
@@ -70,6 +70,26 @@
 .item4 {
     grid-area: item4;
 }
+.view-all-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .view-all-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Customize the background color */
+    color: white; /* Customize the text color */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .view-all-button a:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
 
 nav ul {
     width: 50%;
